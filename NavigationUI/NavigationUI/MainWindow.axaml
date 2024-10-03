@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:components="clr-namespace:NavigationUI.Components;assembly=NavigationUI"
+		mc:Ignorable="d" 
+        x:Class="NavigationUI.MainWindow"
+        Title="NavigationUI"
+		ExtendClientAreaChromeHints="NoChrome"
+		ExtendClientAreaTitleBarHeightHint="-1"
+		ExtendClientAreaToDecorationsHint="False"
+		SystemDecorations="None"
+		Background="Transparent"
+		WindowStartupLocation="CenterScreen" Width="1280" SizeToContent="Height">
+
+	<Border Background="{StaticResource bg}" CornerRadius="12">
+		<Grid RowDefinitions="Auto,*" Margin="40 30 40 30">
+			<components:NavBar/>
+		</Grid>
+	</Border>
+	
+	
+</Window>

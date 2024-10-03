@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<SolidColorBrush x:Key="pr" Color="#346AF6"/>
+	<SolidColorBrush x:Key="bg" Color="#111112"/>
+	<SolidColorBrush x:Key="bg-2" Color="#1D1E21"/>
+	<SolidColorBrush x:Key="bg-3" Color="#28292E"/>
+
+    
+</ResourceDictionary>
